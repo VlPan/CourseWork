@@ -1,0 +1,194 @@
+body{
+    
+
+background: url(src/images/img_6.jpg);
+background-position: center;
+width:100%;
+height: auto;
+font-size: 15px;
+/*    background-size: cover;*/
+    background-repeat: no-repeat;
+    
+        
+}
+
+html{
+    height: 100%;
+}
+
+textarea{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EEEEEE;
+    opacity: 0.7;
+    margin-top : 1.33em;
+    width: 50%;
+    font-size: 1.33em;
+    
+}
+
+.container{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) center center no-repeat;
+    width:50%;
+    color: aliceblue;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    height: auto;
+       
+}
+
+h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1em;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.btn-default:hover{
+    font-size: 1.3em;
+    color: #e74c3c;
+    
+}
+
+.btn-default{
+    margin-bottom: 15px;
+}
+
+.refer{
+    color:chartreuse;
+    float:left;
+    font-size:1.13em;
+    margin: 15px;
+    
+    
+}
+
+.refer:hover{
+    text-decoration: none;
+    font-size:1.2em;
+    border-bottom: 2px solid #f1c40f;
+    color:chartreuse;
+    
+    
+}
+
+
+.btn-info {
+    display: none;
+    margin-top:1em;
+    
+}
+
+.fa-arrow-left{
+    position: relative;
+    font-size:2.66em;
+    margin-top:0.375em;
+    float:left;
+    
+    color: brown;
+}
+
+.fa-arrow-left:hover{
+    position: relative;
+    float:left;
+    color: beige;
+    
+}
+
+.fa-fire{
+    color:#CF000F;
+    font-size: 4em;
+    margin-top: 0.25em;
+    margin-right:0.66em;
+}
+
+.input-group{
+    margin-bottom:1.5em;
+    
+}
+
+.form-control{
+    border-radius:0.66em;
+}
+
+.fa-question-circle-o{
+    font-size:1em;
+    color:aqua;
+}
+
+#textareaPrompt{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    margin-top : 1.33em;
+    width: 66%;
+    color:white;
+    
+}
+
+.fa-times{
+    position:absolute;
+    font-size:1.66em;
+    color:red;
+    left:83%;
+    display: none;
+}
+
+#solution{
+    font-size: 17px;
+    font-weight: 700;
+    color: crimson;
+}
+
+@media screen and (max-width: 991px){
+    a.refer {
+        margin: 0.33em;
+        font-size: 1em;
+    }
+    a.refer:hover {
+        margin: 0.33em;
+        font-size: 1.1em;
+    }
+    .input-group{
+        margin: auto;
+        margin-bottom: 0.3em;
+        
+    }
+}
+
+
+@media screen and (max-width: 469px){
+    body{
+        
+        background-size: auto;
+        background-color: aliceblue;
+    }
+    
+    .description{
+        display: none;
+    }
+    
+        a.refer {
+        margin: 0.33em;
+        font-size: 1em;
+        margin: 0 auto;
+    }
+    a.refer:hover {
+        margin: 0.33em;
+        font-size: 1.1em;
+    }
+}
+
